@@ -181,6 +181,12 @@ letter-spacing: 0.02%;
   background-color:#2E2F42
 }
 .footer-link {
+  color: #404bbf;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
 }
 
 .footer-text {
