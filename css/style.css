@@ -196,6 +196,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.header-logo-two{
+  color: #f4f4fd
+}
+
 /* Зміна кольору шрифту при ховері та фокусі на посиланні в першому пункті списку */
 ul li:first-child a:hover,
 ul li:first-child a:focus {
