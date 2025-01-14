@@ -231,9 +231,7 @@ button:focus {
   color: #F4F4FD;
 }
 
-ul li:first-child a:hover{
-}
-
+ul li:first-child a:hover
 ul li:first-child a:focus {
   color: #404BBF;
 }
