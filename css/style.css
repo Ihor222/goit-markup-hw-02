@@ -191,6 +191,7 @@ button:focus {
 }
 
 .portfolio-subtitle {
+  /* Header 3 */
   color: #2E2F42;
   font-size: 20px;
   font-weight: 500;
@@ -230,3 +231,9 @@ button:focus {
   color: #F4F4FD;
 }
 
+ul li:first-child a:hover{
+}
+
+ul li:first-child a:focus {
+  color: #404BBF;
+}
