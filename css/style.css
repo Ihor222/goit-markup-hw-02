@@ -30,15 +30,17 @@ ul {
 }
 
 .header-logo {
-  color: #2E2F42;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  color: rgb(77, 90, 229);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
 }
 
-.header-logo-iris {
-color: #4D5AE5;
+.header-logo-black {
+color: #2E2F42;
+font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
