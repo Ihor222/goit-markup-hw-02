@@ -30,21 +30,23 @@ ul {
 }
 
 .header-logo {
-  color: rgb(77, 90, 229);
-font-family: Raleway;
+color: rgb(77, 90, 229);
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase
 }
 
 .header-logo-black {
 color: #2E2F42;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase
 }
 
 .header-menu-link {
@@ -56,6 +58,7 @@ letter-spacing: 0.03em;
 }
 
 .address {
+  font-style: normal
 }
 .address-list {
 }
@@ -65,7 +68,7 @@ letter-spacing: 0.03em;
 color: rgb(67, 68, 85);
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02%;
+letter-spacing: 0.02em;
 }
 
 .hero {
@@ -83,13 +86,21 @@ letter-spacing: 0.02%;
 
 .hero-btn {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #4D5AE5;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer
-  
+
+}
+button:hover {
+  background-color: #404bbf;
+}
+
+button:focus {
+  background-color: #404bbf; 
+  outline: none
 }
 
 .features {
@@ -129,6 +140,7 @@ text-transform: capitalize
   background-color: #FFFFFF
 }
 .team-item {
+  background-color: #FFFFFF
 }
 .team-img {
 }
