@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF; 
-  color: #434455;
+  background-color: #FFFFFF; /* Фон сторінки */
+  color: #434455; /* Колір тексту */
 }
 
 a {
@@ -27,11 +27,11 @@ ul {
 }
 
 [type='button'] {
-  background-color: brown;
+  background-color: #A52A2A; /* brown */
 }
 
 .header-logo {
-  color: #4d5ae5;
+  color: #4D5AE5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -63,14 +63,15 @@ ul {
 }
 
 .address-list {
+  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
-
-.address-item {  
+.address-item {
+  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .address-link {
-  color: rgb(67, 68, 85);
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -81,7 +82,7 @@ ul {
 }
 
 .hero-title {
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -90,7 +91,7 @@ ul {
 }
 
 .hero-btn {
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #4D5AE5;
   font-size: 16px;
   font-weight: 500;
@@ -100,11 +101,11 @@ ul {
 }
 
 button:hover {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 
 button:focus {
-  background-color: #404bbf; 
+  background-color: #404BBF; 
   outline: none;
 }
 
@@ -118,6 +119,7 @@ button:focus {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .text {
@@ -151,6 +153,7 @@ button:focus {
 }
 
 .team-img {
+  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .team-subtitle {
@@ -171,6 +174,7 @@ button:focus {
 }
 
 .portfolio {
+  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .portfolio-title {
@@ -184,17 +188,20 @@ button:focus {
 }
 
 .portfolio-list {
+  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
-.portfolio-item{
+.portfolio-item {
+  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
-
 
 .portfolio-img {
+  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .portfolio-subtitle {
-  color: #2e2f42;
+  /* Header 3 */
+  color: #2E2F42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -202,6 +209,7 @@ button:focus {
 }
 
 .portfolio-text {
+  /* Body */
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -209,11 +217,11 @@ button:focus {
 }
 
 .footer {
-  background-color:#2E2F42;
+  background-color: #2E2F42;
 }
 
 .footer-link {
-  color: #4d5ae5;
+  color: #4D5AE5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -230,11 +238,11 @@ button:focus {
 }
 
 .header-logo-two {
-  color: #f4f4fd;
+  color: #F4F4FD;
 }
 
 /* Зміна кольору шрифту при ховері та фокусі на посиланні в першому пункті списку */
 ul li:first-child a:hover,
 ul li:first-child a:focus {
-  color: #404bbf;
+  color: #404BBF;
 }
