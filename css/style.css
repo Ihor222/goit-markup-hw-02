@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF; /* Фон сторінки */
-  color: #434455; /* Колір тексту */
+  background-color: #FFFFFF; 
+  color: #434455; 
 }
 
 a {
@@ -13,7 +13,6 @@ ul {
 }
 
 .visually-hidden {
-  /* Видалено зайві стилі, зберігся лише мінімум */
   position: absolute;
   width: 1px;
   height: 1px;
@@ -27,7 +26,7 @@ ul {
 }
 
 [type='button'] {
-  background-color: #A52A2A; /* brown */
+  background-color: #A52A2A; 
 }
 
 .header-logo {
@@ -63,11 +62,9 @@ ul {
 }
 
 .address-list {
-  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .address-item {
-  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .address-link {
@@ -153,7 +150,6 @@ button:focus {
 }
 
 .team-img {
-  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .team-subtitle {
@@ -174,7 +170,6 @@ button:focus {
 }
 
 .portfolio {
-  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .portfolio-title {
@@ -188,15 +183,12 @@ button:focus {
 }
 
 .portfolio-list {
-  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .portfolio-item {
-  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .portfolio-img {
-  /* Якщо цей клас не використовується, можна залишити порожнім */
 }
 
 .portfolio-subtitle {
@@ -209,7 +201,6 @@ button:focus {
 }
 
 .portfolio-text {
-  /* Body */
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -241,7 +232,6 @@ button:focus {
   color: #F4F4FD;
 }
 
-/* Зміна кольору шрифту при ховері та фокусі на посиланні в першому пункті списку */
 ul li:first-child a:hover,
 ul li:first-child a:focus {
   color: #404BBF;
