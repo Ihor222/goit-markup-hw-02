@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF;
-  color: #434455;
+  background-color: #FFFFFF; /* Визначає фон сторінки */
+  color: #434455; /* Визначає колір тексту */
 }
 
 a {
@@ -30,7 +30,7 @@ ul {
 }
 
 .header-logo {
-  color: #2E2F42;
+  color: #4D5AE5;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-size: 18px;
@@ -40,21 +40,21 @@ ul {
 }
 
 .header-logo-black {
-color: #2e2f42;
-font-family: "Raleway", sans-serif;
-text-transform: uppercase;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-.header-menu-link{
-color: #2E2F42;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.header-menu-link {
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .hero {
@@ -63,50 +63,38 @@ letter-spacing: 0.02em;
 
 .hero-title {
   color: #ffffff;
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .hero-btn {
-color: #ffffff;
-background-color: #4D5AE5;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em
+  color: #ffffff;
+  background-color: #4D5AE5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .features {
   background-color: #FFFFFF;
 }
 
-.visually-hidden {
-
-}
-
-.features-list {
-
-}
-
-.features-item {
-
-}
-
 .features-subtitle {
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: left;
+  color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .text {
-color: #434455;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
